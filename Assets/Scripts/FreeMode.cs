@@ -44,6 +44,7 @@ public class FreeModeState : IState<StateID>
         {
             ToggleGravityDirection();
         }
+        OnOff();
     }
 
     public void OnExitState()
@@ -74,6 +75,7 @@ public class FreeModeState : IState<StateID>
 
         if (Input.GetMouseButtonUp(0))
             StopDrag();
+
     }
 
     private void StartDrag()
@@ -94,7 +96,6 @@ public class FreeModeState : IState<StateID>
                 lineRenderer.enabled = true;
             }
         }
-        OnOff();
     }
 
 
@@ -133,17 +134,31 @@ public class FreeModeState : IState<StateID>
 
     private void OnOff()
     {
-        if (objectInFront == null) return;
+        Ray ray = mainCamera.GetComponent<Camera>().ScreenPointToRay(Input.mousePosition);
+        if (Physics.Raycast(ray, out RaycastHit hit, Mathf.Infinity, hitLayer))
+        {
+            if (!hit.collider.gameObject.CompareTag("Ground"))
+                objectInFront = hit.collider.gameObject;
+        }
 
-        if (objectInFront.CompareTag("Bomb"))
+        if (objectInFront == null)
         {
-            ToggleController(boomController);
+            //Debug.Log(0);
         }
-        else if (objectInFront.CompareTag("BlackHole"))
+        else
         {
-            ToggleController(blackHoleController);
+            InitializeObjectControllers(objectInFront);
+            if (objectInFront.CompareTag("Bomb"))
+            {
+                //Debug.Log("is bomb");
+                ToggleController(boomController);
+            }
+            else if (objectInFront.CompareTag("BlackHole"))
+            {
+                //Debug.Log("is blackhole");
+                ToggleController(blackHoleController);
+            }
         }
-        else return;
     }
 
     private void ToggleController(MonoBehaviour controller)
