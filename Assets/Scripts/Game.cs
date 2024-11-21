@@ -19,6 +19,12 @@ public class Game : MonoBehaviour
     private Transform cameraTransform;
     private Vector3 currentGravityDirection;
 
+    public float speedUpFactor = 4.0f;
+    public float slowDownFactor = 0.1f;
+    public float normalFactor = 1.0f;
+
+    private float currentTimeScale = 1.0f;
+
 
     public void Start()
     {
@@ -56,5 +62,38 @@ public class Game : MonoBehaviour
     void Update()
     {
         stateManager.UpdateState();
+            Timepase();
+    }
+
+    private void Timepase()
+    {
+        Debug.Log(1);
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            Debug.Log(0);
+            Time.timeScale = currentTimeScale == 0 ? 1.0f : 0;
+
+        }
+
+        if (Input.GetKeyDown(KeyCode.Tab) && currentTimeScale == normalFactor )
+        {
+            Debug.Log(2);
+            currentTimeScale = speedUpFactor;
+            Time.timeScale = currentTimeScale;
+        }
+
+        if (Input.GetKeyDown(KeyCode.Tab) && currentTimeScale == speedUpFactor)
+        {
+            Debug.Log(0.5);
+            currentTimeScale = slowDownFactor;
+            Time.timeScale = currentTimeScale;
+        }
+
+        if (Input.GetKeyDown(KeyCode.Tab) && currentTimeScale == slowDownFactor)
+        {
+            Debug.Log(1);
+            currentTimeScale = 1.0f;
+            Time.timeScale = currentTimeScale;
+        }
     }
 }

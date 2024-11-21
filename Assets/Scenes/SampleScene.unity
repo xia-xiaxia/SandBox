@@ -429,6 +429,9 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 8
   clineRenderer: {fileID: 346896148}
+  speedUpFactor: 4
+  slowDownFactor: 0.2
+  normalFactor: 1
 --- !u!1 &686087545
 GameObject:
   m_ObjectHideFlags: 0
