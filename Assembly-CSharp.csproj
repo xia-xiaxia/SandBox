@@ -60,12 +60,17 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\BlackHole.cs" />
+    <Compile Include="Assets\Scripts\GetMousePosition.cs" />
     <Compile Include="Assets\Scripts\Object.cs" />
+    <Compile Include="Assets\Scripts\FreeMode.cs" />
+    <Compile Include="Assets\Scripts\FSM.cs" />
+    <Compile Include="Assets\Scripts\StateManager.cs" />
+    <Compile Include="Assets\Scripts\CreatMode.cs" />
     <Compile Include="Assets\Scripts\Crosshair.cs" />
     <Compile Include="Assets\Scripts\CamerahController.cs" />
     <Compile Include="Assets\Scripts\Boom.cs" />
-    <Compile Include="Assets\Scripts\Objects-Creat&amp;Destory.cs" />
     <Compile Include="Assets\Scripts\ObjectPreview.cs" />
+    <Compile Include="Assets\Scripts\Game.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

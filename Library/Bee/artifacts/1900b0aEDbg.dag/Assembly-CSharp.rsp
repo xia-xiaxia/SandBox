@@ -364,10 +364,15 @@
 "Assets/Scripts/BlackHole.cs"
 "Assets/Scripts/Boom.cs"
 "Assets/Scripts/CamerahController.cs"
+"Assets/Scripts/CreatMode.cs"
 "Assets/Scripts/Crosshair.cs"
+"Assets/Scripts/FreeMode.cs"
+"Assets/Scripts/FSM.cs"
+"Assets/Scripts/Game.cs"
+"Assets/Scripts/GetMousePosition.cs"
 "Assets/Scripts/Object.cs"
 "Assets/Scripts/ObjectPreview.cs"
-"Assets/Scripts/Objects-Creat&Destory.cs"
+"Assets/Scripts/StateManager.cs"
 -langversion:9.0
 
 /deterministic

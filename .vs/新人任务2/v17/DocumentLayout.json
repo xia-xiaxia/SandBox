@@ -3,28 +3,48 @@
   "WorkspaceRootPath": "D:\\a game\\\u65B0\u4EBA\u4EFB\u52A12\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{115ECD79-8AFE-8C9A-4537-9AC87ECBC411}|Assembly-CSharp.csproj|d:\\a game\\\u65B0\u4EBA\u4EFB\u52A12\\assets\\scripts\\blackhole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{115ECD79-8AFE-8C9A-4537-9AC87ECBC411}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\blackhole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{115ECD79-8AFE-8C9A-4537-9AC87ECBC411}|Assembly-CSharp.csproj|D:\\a game\\\u65B0\u4EBA\u4EFB\u52A12\\assets\\scripts\\creatmode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{115ECD79-8AFE-8C9A-4537-9AC87ECBC411}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\creatmode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{115ECD79-8AFE-8C9A-4537-9AC87ECBC411}|Assembly-CSharp.csproj|D:\\a game\\\u65B0\u4EBA\u4EFB\u52A12\\assets\\scripts\\objects-creat\u0026destory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{115ECD79-8AFE-8C9A-4537-9AC87ECBC411}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\objects-creat\u0026destory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{115ECD79-8AFE-8C9A-4537-9AC87ECBC411}|Assembly-CSharp.csproj|D:\\a game\\\u65B0\u4EBA\u4EFB\u52A12\\assets\\scripts\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{115ECD79-8AFE-8C9A-4537-9AC87ECBC411}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{115ECD79-8AFE-8C9A-4537-9AC87ECBC411}|Assembly-CSharp.csproj|D:\\a game\\\u65B0\u4EBA\u4EFB\u52A12\\assets\\scripts\\freemode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{115ECD79-8AFE-8C9A-4537-9AC87ECBC411}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\freemode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{115ECD79-8AFE-8C9A-4537-9AC87ECBC411}|Assembly-CSharp.csproj|d:\\a game\\\u65B0\u4EBA\u4EFB\u52A12\\assets\\scripts\\boom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{115ECD79-8AFE-8C9A-4537-9AC87ECBC411}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\boom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{115ECD79-8AFE-8C9A-4537-9AC87ECBC411}|Assembly-CSharp.csproj|D:\\a game\\\u65B0\u4EBA\u4EFB\u52A12\\assets\\scripts\\getmouseposition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{115ECD79-8AFE-8C9A-4537-9AC87ECBC411}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\getmouseposition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{115ECD79-8AFE-8C9A-4537-9AC87ECBC411}|Assembly-CSharp.csproj|D:\\a game\\\u65B0\u4EBA\u4EFB\u52A12\\assets\\scripts\\fsm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{115ECD79-8AFE-8C9A-4537-9AC87ECBC411}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\fsm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{115ECD79-8AFE-8C9A-4537-9AC87ECBC411}|Assembly-CSharp.csproj|D:\\a game\\\u65B0\u4EBA\u4EFB\u52A12\\assets\\scripts\\statemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{115ECD79-8AFE-8C9A-4537-9AC87ECBC411}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\statemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{115ECD79-8AFE-8C9A-4537-9AC87ECBC411}|Assembly-CSharp.csproj|D:\\a game\\\u65B0\u4EBA\u4EFB\u52A12\\assets\\scripts\\objectpreview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{115ECD79-8AFE-8C9A-4537-9AC87ECBC411}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\objectpreview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{115ECD79-8AFE-8C9A-4537-9AC87ECBC411}|Assembly-CSharp.csproj|D:\\a game\\\u65B0\u4EBA\u4EFB\u52A12\\assets\\scripts\\camerahcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{115ECD79-8AFE-8C9A-4537-9AC87ECBC411}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\camerahcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{115ECD79-8AFE-8C9A-4537-9AC87ECBC411}|Assembly-CSharp.csproj|D:\\a game\\\u65B0\u4EBA\u4EFB\u52A12\\assets\\scripts\\blackhole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{115ECD79-8AFE-8C9A-4537-9AC87ECBC411}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\blackhole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{115ECD79-8AFE-8C9A-4537-9AC87ECBC411}|Assembly-CSharp.csproj|D:\\a game\\\u65B0\u4EBA\u4EFB\u52A12\\assets\\scripts\\crosshair.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{115ECD79-8AFE-8C9A-4537-9AC87ECBC411}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\crosshair.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{115ECD79-8AFE-8C9A-4537-9AC87ECBC411}|Assembly-CSharp.csproj|D:\\a game\\\u65B0\u4EBA\u4EFB\u52A12\\assets\\scripts\\object.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{115ECD79-8AFE-8C9A-4537-9AC87ECBC411}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\object.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{115ECD79-8AFE-8C9A-4537-9AC87ECBC411}|Assembly-CSharp.csproj|d:\\a game\\\u65B0\u4EBA\u4EFB\u52A12\\assets\\scripts\\boom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{115ECD79-8AFE-8C9A-4537-9AC87ECBC411}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\boom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,47 +54,20 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "Boom.cs",
               "DocumentMoniker": "D:\\a game\\\u65B0\u4EBA\u4EFB\u52A12\\Assets\\Scripts\\Boom.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Boom.cs",
               "ToolTip": "D:\\a game\\\u65B0\u4EBA\u4EFB\u52A12\\Assets\\Scripts\\Boom.cs",
               "RelativeToolTip": "Assets\\Scripts\\Boom.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAADwvwgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAQwAYAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-13T13:12:20.782Z",
               "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Object.cs",
-              "DocumentMoniker": "D:\\a game\\\u65B0\u4EBA\u4EFB\u52A12\\Assets\\Scripts\\Object.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Object.cs",
-              "ToolTip": "D:\\a game\\\u65B0\u4EBA\u4EFB\u52A12\\Assets\\Scripts\\Object.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Object.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T13:41:38.151Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "BlackHole.cs",
-              "DocumentMoniker": "D:\\a game\\\u65B0\u4EBA\u4EFB\u52A12\\Assets\\Scripts\\BlackHole.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\BlackHole.cs",
-              "ToolTip": "D:\\a game\\\u65B0\u4EBA\u4EFB\u52A12\\Assets\\Scripts\\BlackHole.cs",
-              "RelativeToolTip": "Assets\\Scripts\\BlackHole.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAIwC0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T10:33:54.51Z",
               "EditorCaption": ""
             },
             {
@@ -83,7 +76,110 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
+              "Title": "FreeMode.cs",
+              "DocumentMoniker": "D:\\a game\\\u65B0\u4EBA\u4EFB\u52A12\\Assets\\Scripts\\FreeMode.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\FreeMode.cs",
+              "ToolTip": "D:\\a game\\\u65B0\u4EBA\u4EFB\u52A12\\Assets\\Scripts\\FreeMode.cs",
+              "RelativeToolTip": "Assets\\Scripts\\FreeMode.cs",
+              "ViewState": "AgIAAJEAAAAAAAAAAAAswLMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T10:38:31.54Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Game.cs",
+              "DocumentMoniker": "D:\\a game\\\u65B0\u4EBA\u4EFB\u52A12\\Assets\\Scripts\\Game.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Game.cs",
+              "ToolTip": "D:\\a game\\\u65B0\u4EBA\u4EFB\u52A12\\Assets\\Scripts\\Game.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Game.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T09:08:04.582Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CreatMode.cs",
+              "DocumentMoniker": "D:\\a game\\\u65B0\u4EBA\u4EFB\u52A12\\Assets\\Scripts\\CreatMode.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CreatMode.cs",
+              "ToolTip": "D:\\a game\\\u65B0\u4EBA\u4EFB\u52A12\\Assets\\Scripts\\CreatMode.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CreatMode.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAQwGYAAABgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T09:04:45.685Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "StateManager.cs",
+              "DocumentMoniker": "D:\\a game\\\u65B0\u4EBA\u4EFB\u52A12\\Assets\\Scripts\\StateManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\StateManager.cs",
+              "ToolTip": "D:\\a game\\\u65B0\u4EBA\u4EFB\u52A12\\Assets\\Scripts\\StateManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\StateManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T08:59:32.088Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FSM.cs",
+              "DocumentMoniker": "D:\\a game\\\u65B0\u4EBA\u4EFB\u52A12\\Assets\\Scripts\\FSM.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\FSM.cs",
+              "ToolTip": "D:\\a game\\\u65B0\u4EBA\u4EFB\u52A12\\Assets\\Scripts\\FSM.cs",
+              "RelativeToolTip": "Assets\\Scripts\\FSM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T02:57:32.466Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GetMousePosition.cs",
+              "DocumentMoniker": "D:\\a game\\\u65B0\u4EBA\u4EFB\u52A12\\Assets\\Scripts\\GetMousePosition.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GetMousePosition.cs",
+              "ToolTip": "D:\\a game\\\u65B0\u4EBA\u4EFB\u52A12\\Assets\\Scripts\\GetMousePosition.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GetMousePosition.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T06:44:53.141Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ObjectPreview.cs",
+              "DocumentMoniker": "D:\\a game\\\u65B0\u4EBA\u4EFB\u52A12\\Assets\\Scripts\\ObjectPreview.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ObjectPreview.cs",
+              "ToolTip": "D:\\a game\\\u65B0\u4EBA\u4EFB\u52A12\\Assets\\Scripts\\ObjectPreview.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ObjectPreview.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T06:42:45.75Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "BlackHole.cs",
+              "DocumentMoniker": "D:\\a game\\\u65B0\u4EBA\u4EFB\u52A12\\Assets\\Scripts\\BlackHole.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\BlackHole.cs",
+              "ToolTip": "D:\\a game\\\u65B0\u4EBA\u4EFB\u52A12\\Assets\\Scripts\\BlackHole.cs",
+              "RelativeToolTip": "Assets\\Scripts\\BlackHole.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAIwC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T10:33:54.51Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "Crosshair.cs",
               "DocumentMoniker": "D:\\a game\\\u65B0\u4EBA\u4EFB\u52A12\\Assets\\Scripts\\Crosshair.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Crosshair.cs",
@@ -91,34 +187,19 @@
               "RelativeToolTip": "Assets\\Scripts\\Crosshair.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T11:02:25.818Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-13T11:02:25.818Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Objects-Creat\u0026Destory.cs",
-              "DocumentMoniker": "D:\\a game\\\u65B0\u4EBA\u4EFB\u52A12\\Assets\\Scripts\\Objects-Creat\u0026Destory.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Objects-Creat\u0026Destory.cs",
-              "ToolTip": "D:\\a game\\\u65B0\u4EBA\u4EFB\u52A12\\Assets\\Scripts\\Objects-Creat\u0026Destory.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Objects-Creat\u0026Destory.cs",
-              "ViewState": "AgIAALoAAAAAAAAAAAA4wNIAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T08:50:14.299Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 8,
               "Title": "CamerahController.cs",
               "DocumentMoniker": "D:\\a game\\\u65B0\u4EBA\u4EFB\u52A12\\Assets\\Scripts\\CamerahController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\CamerahController.cs",
               "ToolTip": "D:\\a game\\\u65B0\u4EBA\u4EFB\u52A12\\Assets\\Scripts\\CamerahController.cs",
               "RelativeToolTip": "Assets\\Scripts\\CamerahController.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAAAD0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADAAAAAAAAAAAAAewEQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T12:09:58.074Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-12T12:09:58.074Z"
             }
           ]
         }

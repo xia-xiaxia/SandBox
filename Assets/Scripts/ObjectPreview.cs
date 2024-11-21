@@ -5,7 +5,7 @@ using UnityEngine;
 public class ObjectPreview : MonoBehaviour
 {
     public GameObject[] previewObject;  // 预览物体（透明物体）
-    private ObjectsCreatAndDestory ObjectsCreatAndDestory;
+    private CreatModeState ObjectsCreatAndDestory;
     private Camera mainCamera;
 
     void Start()
