@@ -70,3 +70,76 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+
+# Unity 自动生成的备份文件
+*.bak
+*.backup
+
+# 临时和自动生成的二进制文件
+*.dll.mdb
+*.dll.config
+*.exe.config
+*.dll.config.bak
+
+# Unity 编辑器生成的日志文件
+*.log
+
+# Unity 编辑器生成的临时文件
+*.tmp
+*.userprefs
+*.booproj
+*.svd
+
+# Unity 生成的预览和缓存文件
+*.prefab
+*.prefab.meta
+*.unity
+*.unity.meta
+
+# 外部工具生成的临时文件（例如Git LFS）
+*.gitattributes
+*.gitkeep
+
+# 第三方库和插件的编译输出
+/[Aa]ssets/[Tt]hird[Pp]arty/[Ll]ibraries/
+/[Aa]ssets/[Tt]hird[Pp]arty/[Pp]lugins/obj/
+/[Aa]ssets/[Tt]hird[Pp]arty/[Pp]lugins/[Bb]in/
+/[Aa]ssets/[Tt]hird[Pp]arty/[Pp]lugins/[Ll]ib/
+
+# Unity Package Manager 缓存和临时文件
+/[Ll]ibrary/PackageCache/
+/[Ll]ibrary/PackageManager/
+
+# Visual Studio Code 和其他编辑器生成的配置文件
+.vscode/
+*.code-workspace
+*.code-snippets
+
+# Unity Cloud Build 生成的文件
+/[Bb]uildServer/
+/[Bb]uildServerTemp/
+/[Bb]uildServerData/
+
+# 外部资源导入时可能生成的临时文件
+/[Aa]ssets/Imported/
+
+# 跨平台构建相关的临时文件
+/[Bb]uilds/Player/
+/[Bb]uilds/TempPlayer/
+/[Bb]uilds/AndroidPlayer/
+/[Bb]uilds/iOSPlayer/
+/[Bb]uilds/StandalonePlayer/
+/[Bb]uilds/WebPlayer/
+/[Bb]uilds/WindowsPlayer/
+/[Bb]uilds/MacPlayer/
+/[Bb]uilds/LinuxPlayer/
+
+# Unity Test Framework 生成的报告和临时文件
+/[Tt]ests/[Rr]esults/
+/[Tt]ests/[Pp]layer[Tt]ests/
+/[Tt]ests/[Rr]un[Tt]ime[Tt]ests/
+
+# 其他可能不需要的文件
+*.usercache
+*.unity3d
+*.unitypackage.meta
