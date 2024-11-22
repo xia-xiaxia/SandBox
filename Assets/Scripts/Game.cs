@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using System.Runtime.CompilerServices;
 using UnityEngine;
 
 public class Game : MonoBehaviour
@@ -19,16 +20,18 @@ public class Game : MonoBehaviour
     private Transform cameraTransform;
     private Vector3 currentGravityDirection;
 
-    public float speedUpFactor = 4.0f;
-    public float slowDownFactor = 0.1f;
-    public float normalFactor = 1.0f;
+    private int sign = 0;
 
-    private float currentTimeScale = 1.0f;
+    private const float NormalSpeed = 1.0f; 
+    private const float SlowSpeed = 0.4f;   
+    private const float FastSpeed = 5.0f;   
 
+    public float currentTimeScale ;
 
     public void Start()
     {
         cameraTransform = mainCamera.transform;
+        currentTimeScale=1;
 
         creatModeState = new CreatModeState(
             mainCamera,
@@ -62,38 +65,47 @@ public class Game : MonoBehaviour
     void Update()
     {
         stateManager.UpdateState();
-            Timepase();
+            TimeController();
     }
 
-    private void Timepase()
+    private void TimeController()
     {
-        Debug.Log(1);
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            Debug.Log(0);
-            Time.timeScale = currentTimeScale == 0 ? 1.0f : 0;
-
+            Debug.Log("切换暂停状态");
+            Time.timeScale = (Time.timeScale == NormalSpeed) ? 0f : NormalSpeed;
         }
 
-        if (Input.GetKeyDown(KeyCode.Tab) && currentTimeScale == normalFactor )
+        if (Input.GetKeyDown(KeyCode.Tab))
         {
-            Debug.Log(2);
-            currentTimeScale = speedUpFactor;
-            Time.timeScale = currentTimeScale;
+            sign++; 
+            if (sign >= 3)
+            {
+                sign = 0; 
+            }
+            UpdateTimeScale(); 
         }
+    }
 
-        if (Input.GetKeyDown(KeyCode.Tab) && currentTimeScale == speedUpFactor)
+    private void UpdateTimeScale()
+    {
+        switch (sign)
         {
-            Debug.Log(0.5);
-            currentTimeScale = slowDownFactor;
-            Time.timeScale = currentTimeScale;
-        }
-
-        if (Input.GetKeyDown(KeyCode.Tab) && currentTimeScale == slowDownFactor)
-        {
-            Debug.Log(1);
-            currentTimeScale = 1.0f;
-            Time.timeScale = currentTimeScale;
+            case 0:
+                Time.timeScale = NormalSpeed;
+                Debug.Log("时间状态：正常速度");
+                break;
+            case 1:
+                Time.timeScale = FastSpeed;
+                Debug.Log("时间状态：快速速度");
+                break;
+            case 2:
+                Time.timeScale = SlowSpeed;
+                Debug.Log("时间状态：慢速");
+                break;
+            default:
+                Debug.LogError("未知状态");
+                break;
         }
     }
 }
